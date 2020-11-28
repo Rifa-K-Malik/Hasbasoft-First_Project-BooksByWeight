@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Bree Serif', serif;
+}
+.cart-grid-container{
+    display: grid;
+    grid-template-areas:
+    'header'
+    'table'
+    'bottom'
+}
+.head{
+    grid-area: header;
+    background: rgb(234, 247, 247); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 1%;
+    height: 200px;
+    border-radius: 10px;
+}
+.table{
+    grid-area: table;
+}
+table{
+    border: 5px solid black;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background: rgb(236, 254, 255);
+    border-radius: 10px;
+}
+img{
+    height: 200px;
+    width: 120px;
+}
+table th{
+    border: 1px solid black;
+    padding: 0 9px;
+    margin: 10px;
+}
+table tr td{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.bottom{
+    grid-area: bottom;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+.bottom .left{
+    width: 50%;
+    text-align: left;   
+}
+.bottom .right{
+    width: 50%;
+    text-align: right;
+}
+.left p{
+    margin: 20px 0;
+}
+.left input{
+    height: 35px;
+    width: 200px;
+    border-radius: 11px;
+    padding: 0px 10px;
+}
+.bottom button{
+    height: 40px;
+    width: 180px;
+    color: white;
+    background-color: black;
+    border-radius: 11px;
+    margin-bottom: 10px;
+}
+.right p{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.right div{
+    display: flex;
+    
+}
+.md{
+    margin-top: 20px;
+}
+.right .rl{
+    width: 50%;
+    display: block;
+}
+.rl ul li{
+    list-style: none;
+padding-bottom: 20px;
+}
+.right .rr{
+    margin-left: 100px;
+    width: 50%;
+}
+.rr ul li{
+    list-style: none;
+    padding-bottom: 20px;
+
+}
+.right button{
+    height: 40px;
+    width: 180px;
+    color: white;
+    background-color: black;
+    border-radius: 11px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 500px){
+    
+    .head{
+        height: 100px;
+    }
+    .table{
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .table img{
+        height: 100px;
+        width: 70px;
+    }
+    table th{
+        border: 1px solid black;
+        padding: 0px 5px;
+    }
+    table tr td{
+        padding: 5px;
+        border: 1px solid black;
+    }
+    .bottom{
+        display: block;
+    }
+    .bottom .left{
+        width: 100%;
+    }
+    .bottom .right{
+        padding-top: 3%;
+        width: 100%;
+    }
+    .left input{
+       margin-bottom: 5px;
+    } 
+}

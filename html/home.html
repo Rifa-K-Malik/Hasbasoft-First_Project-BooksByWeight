@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksByWeight&copy;</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/sidebarcart.css">
+    <link rel="stylesheet" href="/css/mysidenav.css">
+    <link rel="stylesheet" href="/css/bkdd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <!--Start of header section-->
+        <header class="item1">
+            <!--sidemenu on cart click-->
+            <div class="sidebar" id="rightMenu">
+                <div><button onclick="closeRightMenu()" class="btntimes">&times;</button></div>
+                <div class="top">
+                    <div class="boxx">265x265</div>
+                    <div class="mid-mid">
+                        <p>1000 Classic Recepies</p>
+                        <p>QTY: 1</p>
+                        <span>&#x20B9;127.00</span>
+                    </div>
+                    <div><i class="fa fa-close"></i></div>
+                </div>
+                <hr>
+                <div class="mid">
+                    <div class="boxx">265x265</div>
+                    <div class="mid-mid">
+                        <p>Life on Earth</p>
+                        <p>QTY: 1</p>
+                        <span>&#x20B9;10.00</span>
+                    </div>
+                    <div><i class="fa fa-close"></i></div>
+                </div>
+                <hr>
+                <div class="bottom">
+                    <p style="font-size: 20px; font-weight: bold;">Subtotal: <span>&#x20B9;130.00</span></p>
+                    <a href="cart.html"><button class="btn-vc">View Cart</button></a><br>
+                    <a href="checkout.html"><button class="btn-co">Checkout</button></a>
+                </div>
+            </div>
+            <!--Sidemenu on menu Click-->
+            <div id="mySidenav" class="sd-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="sd-menu-1">
+                    <img src="/img/logo.png" alt="logo">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit exercitationem soluta odio
+                        corporis!
+                        Repellat
+                        qui delectus beatae voluptatibus quaerat hic?
+                    </p>
+                </div>
+                <div class="sd-menu-2">
+                    <ul>
+                        <li><img src="/img/book1.png" alt=""></li>
+                        <li><img src="/img//book2.png" alt=""></li>
+                        <li><img src="/img//book3.png" alt=""></li>
+                        <li><img src="/img//book5.png" alt=""></li>
+                        <li><img src="/img//book6.png" alt=""></li>
+                        <li><img src="/img//book7.png" alt=""></li>
+                        <li><img src="/img//book8.png" alt=""></li>
+                        <li><img src="/img//book3.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="sd-menu-3">
+                    <h2>Information</h2>
+                    <div class="sd-m-3">
+                        <div class="sd-m-3-left">
+                            <ul>
+                                <li>Terms</li>
+                                <li>Shipping</li>
+                                <li>Returns</li>
+                            </ul>
+                        </div>
+                        <div class="sd-m-3-right">
+                            <ul>
+                                <li>Privacy Policy</li>
+                                <li>Contact</li>
+                                <li>About</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="sd-menu-4">
+                    <h2>Follow Us On Social</h2>
+                    <div class="social-icon">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!--start of header section-->
+            <nav id="navbar">
+                <div id="logo">
+                    <img src="/img/logo.png" alt="">
+                </div>
+                <ul class="mid">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">New Books</a></li>
+                    <li><a href="#">Pre-Owned Books</a></li>
+                    <li><a href="#">Books</a>
+                        <div id="book-list">
+                            <div class="book-list-left">
+                                <ul>
+                                    <li style="text-decoration: underline; font-weight: bold;font-size: 1.5rem;">
+                                        Categories</li>
+                                    <li>ACADEMIC & COMPUTERS</li>
+                                    <li>ART & CRAFT</li>
+                                    <li>ANTIQUES & COLLECTABLES</li>
+                                    <li>ACADEMIC & COMPUTERS</li>
+                                    <li>ART & CRAFT</li>
+                                    <li>ANTIQUES & COLLECTABLES</li>
+                                    <li>ACADEMIC & COMPUTERS</li>
+                                    <li>ART & CRAFT</li>
+                                    <li>ANTIQUES & COLLECTABLES</li>
+                                </ul>
+                            </div>
+                            <div class="book-list-mid">
+                                <ul>
+                                    <li style="text-decoration: underline; font-weight: bold;font-size: 1.5rem;">All
+                                        Categories</li>
+                                    <li>CHILDREN BOOKS</li>
+                                    <li>ACADEMIC & COMPUTERS</li>
+                                    <li>ART & CRAFT</li>
+                                    <li>ANTIQUES & COLLECTABLES</li>
+                                    <li>ACADEMIC & COMPUTERS</li>
+                                    <li>ART & CRAFT</li>
+                                    <li>ANTIQUES & COLLECTABLES</li>
+                                </ul>
+                            </div>
+                            <div class="book-list-right">
+                                <img src="/img/book9.png">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Information</a>
+                        <ul>
+                            <li><a href="#">WISHLIST</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">TERMS & CONDITIONS</a></li>
+                            <li><a href="#">RETURNS AND EXCHANGES</a></li>
+                            <li><a href="#">SHIPPING & DELIVERY</a></li>
+                            <li><a href="#">PRIVACY POLICY</a></li>
+                            <li><a href="#">CHECKOUT</a></li>
+                            <li><a href="#">LOGIN & REGISTER</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="right">
+                    <input class="input-field" type="text" placeholder="Search...">
+                    <i class="fa fa-search icon"></i>
+                    <a href="login.html"><i class="fa fa-user"></i></a>
+                    <button onclick="openRightMenu()"><i class="fa fa-shopping-cart"></i></button>
+                    <button onclick="openNav()">&#9776;</button>
+
+                </div>
+            </nav>
+        </header>
+        <!--end of header section-->
+
+        <!--start of body section item2-->
+        <div class="item2">
+            <ul>
+                <h2 style="text-align: center;"> BROWSE CATEGORIES</h2>
+                <hr>
+                <li><a href="#">Academic & Computers</a><i class="fa fa-angle-right" style="padding-left: 26%;"></i>
+                    <div class="dropmenu1">
+                        <div>
+                            <ul>
+                                <li>Computers</li>
+                                <li>Biology</li>
+                                <li>Chemistry</li>
+                                <li>Science</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Computers</li>
+                                <li>Biology</li>
+                                <li>Chemistry</li>
+                                <li>Science</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="/img/compbook.png" alt="book">
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li><a href="#">Animals. Nature & Adventure</a><i class="fa fa-angle-right"
+                        style="padding-left: 8%;"></i>
+                    <div class="dropmenu1">
+                        <div>
+                            <ul>
+                                <li>Pets</li>
+                                <li>Wild Animals</li>
+                                <li>Mountaineering</li>
+                                <li>Zoology</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Pets</li>
+                                <li>Wild Animals</li>
+                                <li>Mountaineering</li>
+                                <li>Zoology</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="/img/book3.png" alt="book">
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li><a href="#">Antique & Collections</a><i class="fa fa-angle-right" style="padding-left: 32%;"></i>
+                    <div class="dropmenu1">
+                        <div>
+                            <ul>
+                                <li>Computers</li>
+                                <li>Biology</li>
+                                <li>Chemistry</li>
+                                <li>Science</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Computers</li>
+                                <li>Biology</li>
+                                <li>Chemistry</li>
+                                <li>Science</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="/img/book2.png" alt="book">
+                        </div>
+                    </div>
+                </li>
+
+                <hr>
+                <li><a href="#">Art & Craft</a><i class="fa fa-angle-right" style="padding-left: 63%;"></i></li>
+                <hr>
+                <li><a href="#">Architecture, Interiors & Garden</a><i class="fa fa-angle-right"
+                        style="padding-left: 0%;"></i>
+                </li>
+                <hr>
+                <li><a href="#">Astrology, Occult & Relogion</a><i class="fa fa-angle-right"
+                        style="padding-left: 11%;"></i>
+                </li>
+                <hr>
+                <li><a href="#">Automobiles & Transport</a><i class="fa fa-angle-right" style="padding-left: 21%;"></i>
+                </li>
+                <hr>
+                <li><a href="#">Biography & Autobiography</a><i class="fa fa-angle-right"
+                        style="padding-left: 12%;"></i></li>
+                <hr>
+                <li><a href="#">Business, Law & Economics</a><i class="fa fa-angle-right"
+                        style="padding-left: 15%;"></i></li>
+                <hr>
+                <li><a href="#">Children's Books</a><i class="fa fa-angle-right" style="padding-left: 47%;"></i></li>
+                <hr>
+                <li><a href="#">Comics, Graphic Novel & Manga</a><i class="fa fa-angle-right"></i></li>
+                <hr>
+                <li><a href="#">Dictionaries & Encyclopedias</a><i class="fa fa-angle-right"
+                        style="padding-left: 8%;"></i>
+                </li>
+                <hr>
+                <li><a href="#">Fashion & Beauty</a><i class="fa fa-angle-right" style="padding-left: 43%;"></i></li>
+                <hr>
+                <li><a href="#">Fiction</a><i class="fa fa-angle-right" style="padding-left: 75%;"></i></li>
+                <hr>
+                <li><a href="#">Film, Dance & Music</a><i class="fa fa-angle-right" style="padding-left: 36%;"></i></li>
+                <hr>
+                <li><a href="#">Food & Drink</a><i class="fa fa-angle-right" style="padding-left: 57%;"></i></li>
+                <hr>
+                <li><a href="#">Foreign Language</a><i class="fa fa-angle-right" style="padding-left: 42%;"></i></li>
+                <hr>
+                <li><a href="#">Geography</a><i class="fa fa-angle-right" style="padding-left: 63%;"></i></li>
+                <hr>
+                <li><a href="#">Health & Wellbeing</a><i class="fa fa-angle-right" style="padding-left: 38%;"></i></li>
+                <hr>
+                <li><a href="#"> History</a><i class="fa fa-angle-right" style="padding-left: 73%;"></i></li>
+                <hr>
+                <li><a href="#"> Humour</a><i class="fa fa-angle-right" style="padding-left: 71%;"></i></li>
+                <hr>
+                <li><a href="#">Limited Editions </a><i class="fa fa-angle-right" style="padding-left: 46%;"></i></li>
+                <hr>
+                <li><a href="#"> Literacy Collections</a><i class="fa fa-angle-right" style="padding-left: 36%;"></i>
+                </li>
+                <hr>
+                <li><a href="#"> Medical</a><i class="fa fa-angle-right" style="padding-left: 72%;"></i></li>
+                <hr>
+                <li><a href="#"> Popular Fiction</a><i class="fa fa-angle-right" style="padding-left: 50%;"></i></li>
+                <hr>
+                <li><a href="#">Rare Books</a><i class="fa fa-angle-right" style="padding-left: 62%;"></i></li>
+                <hr>
+                <li><a href="#">Science & TEchnology</a><i class="fa fa-angle-right" style="padding-left: 31%;"></i>
+                </li>
+                <hr>
+                <li><a href="#">Signed Books</a><i class="fa fa-angle-right" style="padding-left: 57%;"></i></li>
+                <hr>
+                <li><a href="#">Sports</a><i class="fa fa-angle-right" style="padding-left: 77%;"></i></li>
+                <hr>
+                <li><a href="#">Travel & Lifestyle</a><i class="fa fa-angle-right" style="padding-left: 43%;"></i></li>
+                <hr>
+                <li style="font-size: 1.5rem;"><a href="#" style="color: red;"><strong>BOOKSBYPRICE</strong></a></li>
+                <hr>
+                <li><a href="#">&#x20B9;100 - &#x20B9;200</a></li>
+                <hr>
+                <li><a href="#">&#x20B9;200 - &#x20B9;300</a></li>
+                <hr>
+                <li><a href="#">&#x20B9;300 - &#x20B9;400</a></li>
+                <hr>
+                <li><a href="#">&#x20B9;400 - &#x20B9;500</a></li>
+                <hr>
+                <li><a href="#">&#x20B9;500 Onwards</a></li>
+                <hr>
+                <li><a href="#"><strong>Price Low To High</strong></a></li>
+                <hr>
+                <li><a href="#"><strong>Price High To Low</strong></a></li>
+            </ul>
+        </div>
+        <!--End of item2 section-->
+
+        <!--start of slideshow section item3-->
+        <div class="slideshow-container item3">
+            <div class="mySlides fade front-image">
+                <div class="fr-im-left">
+                    <a href="bookdetail.html"><img src="/img/cover1.jpg" alt="book"></a>
+                </div>
+                <div class="fr-im-right">
+                    <p style="font-size: 4rem;">Pre-Owned</p><br>
+                    <p style="color: red; font-size: 3rem;">Collections</p><br>
+                    <a href="cart.html" style="color: gray;">SHOP NOW</a>
+                </div>
+            </div>
+
+            <div class="mySlides fade back-image">
+                <div class="bk-im-left">
+                    <p style="font-size: 4rem;">New Books</p><br>
+                    <p style="color: red; font-size: 3rem;">Collections</p><br>
+                    <a href="cart.html" style="color: gray;">SHOP NOW</a>
+                </div>
+                <div class="bk-im-right">
+                    <a href="bookdetail.html"><img src="/img/cover2.jpg" alt="book"></a>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <!--End of slideshow section item3-->
+
+        <!--Start of item6 section heading1 section-->
+        <div class="item6">
+            <div class="item6left">
+                <h2>LATEST COLLECTION OF BOOKS</h2>
+            </div>
+            <div class="item6right">
+                <a onclick=" plusSlidess(-1)"> <button class="i6prev">&#10094;</button></a>
+                <a onclick=" plusSlidess(1)"> <button class="i6next">&#10095;</button></a>
+            </div>
+        </div>
+        <!--End of item6 section heading1 section-->
+
+        <!--start of item4 section slider1-->
+        <div class="item4">
+            <div class="box">
+                <img src="/img/book1.png" alt="">
+                <p>Dare To Be Raw </p>
+                <ul style="list-style: none;">
+                    <li><del>&pound;26.00</del></li>
+                    <li style="color: red;">&pound;10.00</li>
+                </ul>
+                <div class="i4middle">
+                    <a href="bookdetail.html"><button><i class="fa fa-plus"></i></button></a>
+                    <a href="cart.html"><button><i class="fa fa-shopping-cart"></i></button></a>
+                    <button><i class="fa fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/img/book2.png" alt="">
+                <p>How to Write Your First Book </p>
+                <ul style="list-style: none;">
+                    <li><del>&pound;16.00</del></li>
+                    <li style="color: red;">&pound;10.00</li>
+                </ul>
+                <div class="i4middle">
+                    <a href="bookdetail.html"><button><i class="fa fa-plus"></i></button></a>
+                    <a href="cart.html"><button><i class="fa fa-shopping-cart"></i></button></a>
+                    <button><i class="fa fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/img/book3.png" alt="">
+                <p>Abstraction of the Greatest Idea</p>
+                <ul style="list-style: none;">
+                    <li><del>&pound;56.00</del></li>
+                    <li style="color: red;">&pound;40.00</li>
+                </ul>
+                <div class="i4middle">
+                    <a href="bookdetail.html"><button><i class="fa fa-plus"></i></button></a>
+                    <a href="cart.html"><button><i class="fa fa-shopping-cart"></i></button></a>
+                    <button><i class="fa fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+        <!--End of item4 section slider1-->
+
+        <!--Start of item7 section heading2 section-->
+        <div class="item7">
+            <div class="item7left">
+                <h2>POPULAR COLLECTION OF BOOKS</h2>
+            </div>
+            <div class="item7right">
+                <button class="i7prev">&#10094;</button>
+                <button class="i7next">&#10095;</button>
+            </div>
+        </div>
+        <!--End of item7 section heading2 section-->
+
+        <!--start of item5 section slider2-->
+        <div class="item5">
+            <div class="box1"><img src="/img/book5.png" alt="">
+                <p>Nothing Can Hurt You</p>
+                <ul style="list-style: none;">
+                    <li><del>&pound;36.00</del></li>
+                    <li style="color: red;">&pound;20.00</li>
+                </ul>
+                <div class="i5middle">
+                    <a href="bookdetail.html"><button><i class="fa fa-plus"></i></button></a>
+                    <a href="cart.html"><button><i class="fa fa-shopping-cart"></i></button></a>
+                    <button><i class="fa fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="box1"><img src="/img/book6.png" alt="">
+                <p>Good Food CookBook</p>
+                <ul style="list-style: none;">
+                    <li><del>&pound;160.00</del></li>
+                    <li style="color: red;">&pound;90.00</li>
+                </ul>
+                <div class="i5middle">
+                    <a href="bookdetail.html"><button><i class="fa fa-plus"></i></button></a>
+                    <a href="cart.html"><button><i class="fa fa-shopping-cart"></i></button></a>
+                    <button><i class="fa fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="box1"><img src="/img/book7.png" alt="">
+                <p>Writer Rescue</p>
+                <ul style="list-style: none;">
+                    <li><del>&pound;16.00</del></li>
+                    <li style="color: red;">&pound;10.00</li>
+                </ul>
+                <div class="i5middle">
+                    <a href="bookdetail.html"><button><i class="fa fa-plus"></i></button></a>
+                    <a href="cart.html"><button><i class="fa fa-shopping-cart"></i></button></a>
+                    <button><i class="fa fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+        <!--End of item5 section slider2-->
+
+        <!--Start of footer section-->
+        <div class="item10">
+            <div>
+                <img src="/img/logo.png" alt="logo">
+                <ul>
+                    <li><i class='fas fa-map-marker-alt'></i>Lower Parel, Mumbai India</li>
+                    <li><i class="fas fa-envelope"></i>Info@booksbyweight.com</li>
+                    <li><i class="fas fa-mobile"></i>+91 8850 389387</li>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </ul>
+            </div>
+            <div>
+                <h2>BooksByPrice</h2>
+                <ul>
+                    <li>Below &#x20B9;100</li>
+                    <li>&#x20B9;100 - &#x20B9;200</li>
+                    <li>&#x20B9;200 - &#x20B9;300</li>
+                    <li>&#x20B9;300 - &#x20B9;400</li>
+                    <li>&#x20B9;400 - &#x20B9;500</li>
+                    <li>&#x20B9;500 Onwards</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Information</h2>
+                <ul>
+                    <li>About US</li>
+                    <li>Contact US</li>
+                    <li>Terms & Conditions</li>
+                    <li>Returns & Exchanges</li>
+                    <li>Shipping & Delivery</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h2>Download The App</h2>
+                <p style="padding: 10px;">Download the app and get 10% off on <br> first purchase</p>
+                <img src="/img/googleplay.png" alt="GooglePlay">
+            </div>
+        </div>
+        <!--End of footer section-->
+        <p class="copyright">&copy; 2020 Butterfly Books&copy; All Right Reserved.</p>
+    </div>
+    <script src="/js/script.js"></script>
+    <script src="/js/mysidenav.js"></script>
+    <script src="/js/slideshow.js"></script>
+    <!-- <script src="/js/i4slider.js"></script> -->
+</body>
+
+</html>

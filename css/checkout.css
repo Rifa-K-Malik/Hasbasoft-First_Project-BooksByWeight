@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Bree Serif', serif;
+}
+.top{
+    background: rgb(225, 234, 252);
+    border-radius: 10px;
+    height: 200px;
+    text-align: center;
+    margin: 2%;
+    justify-content: center;
+}
+.top h1{
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+.top p{
+    font-size: 23px;
+}
+.bottom {
+    display: flex;
+    margin: 0% 5%;
+}
+.bleft{
+    width: 70%;
+}
+.bleft p{
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.bleft input{
+    width: 40%;
+    height: 40px;
+    margin: 2% 2%;
+    border-radius: 5px;
+  padding-left: 3px;
+}
+.bleft button{
+    width: 30%;
+    height: 40px;
+    margin: 2% 2%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bleft select{
+    width: 40%;
+    height: 40px;
+    margin: 2% 2%;
+    border-radius: 5px;
+}
+.bleft img{
+   padding: 20px;
+}
+.bright{
+    width: 30%;
+}
+.bright h1{
+    padding-bottom: 20px;
+}
+.bright p{
+    padding-bottom: 30px;
+}
+.bright ul li{
+    padding-bottom: 20px;
+}
+.bright ul li span{
+    color: red;
+}
+.bright-below{
+    background-color: rgb(241, 241, 241);
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    border-radius: 5px;
+}
+.bright-below h1{
+    padding-top: 25px;
+}
+.bright-below a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1102px){
+    .bottom .bleft button{
+        width: 40%;
+}
+}
+@media only screen and (max-width: 820px){
+    body{
+        font-size: 17px;
+    }
+    .top{
+        height: 100px;
+    }
+    .top h1{
+        padding-top: 1%;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    body{
+        font-size: 17px;
+    }
+    .top{
+        height: 100px;
+    }
+    .top h1{
+        padding-top: 1%;
+    }
+    .bottom{
+        display: block;
+    }
+    .bleft{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .bottom .bleft input{
+        width: 40%;
+    }
+    .bright{
+         width: 100%;
+        }
+    .bottom .bleft button{
+        width:  40%;
+}
+.bottom .bleft select{
+    width:  40%;
+}
+.bright-below{
+    height: 100px;
+}
+.bright-below h1{
+    padding-top: 1%;
+}
+.bright-below{
+    margin-bottom: 3%;
+}
+}
+@media only screen and (max-width: 480px){
+    
+    .bottom .bleft input{
+        width: 100%;
+    }
+    .bottom .bleft select{
+        width: 100%;
+    }
+    .bottom .bleft button{
+        width:  50%;
+        font-size: 15px;
+}
+}

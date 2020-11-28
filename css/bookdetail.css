@@ -1,0 +1,185 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Bree Serif', serif;
+}
+.bookdetail-grid-container{
+    display: grid;
+    grid-template-areas:
+    'header'
+    'middle'
+    'footer';
+}
+.top{
+    grid-area: header;
+    background: rgb(242, 235, 248);
+    border-radius: 10px;
+    height: 200px;
+    text-align: center;
+    margin: 2%;
+    justify-content: center;
+}
+.top h1{
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+.top p{
+    font-size: 23px;
+}
+.mid{
+    grid-area:middle;
+}
+.mid{
+    display: grid;
+    grid-template-areas:
+    'mleft mright';
+    margin: 5%;
+}
+
+.midleft{
+    display: flex;
+    grid-area: mleft;
+    width: 100%;
+    
+}
+.md-l-l{
+    width: 20%;
+}
+.midright{
+    grid-area: mright;
+    width: 100%;
+}
+.midright p{
+    color: rgb(90, 86, 86);
+    padding-bottom: 20px;
+}
+.midright select{
+    width: 256px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.midright button{
+    width: 256px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.midright .cred{
+    color: red;
+    font-size: 25px;
+}
+.midright .cblue{
+    color: blue;
+    font-size: 25px;
+}
+.bold{
+    font-weight: bold;
+    color: rgb(37, 36, 36);
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background-color: white;
+    color:  rgb(90, 86, 86);
+  }
+  
+  .fa-twitter {
+    background-color: white;
+    color:  rgb(90, 86, 86);
+  }
+  
+  .fa-google {
+    background-color: white;
+    color: rgb(90, 86, 86);
+  }
+ 
+  .fa-instagram {
+    background-color: white;
+    color:  rgb(90, 86, 86);
+  }
+
+.bottom{
+    grid-area: footer;
+    margin: 5%;
+    color: rgb(104, 98, 98);
+}
+.bottom h1{
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: underline;
+}
+.bottom p{
+    padding: 20px 0;
+}
+.bottom ul{
+    margin: 3%;
+}
+.bottom ul li{
+    padding: 10px 0;
+}
+.bottom ul li span{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1028px){
+    .top{
+        height: 150px;
+    }
+    .mid{
+        display: block;
+    }
+    .midleft{
+        width: 100%;
+    }
+    .midright{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+
+    .top{
+        height: 100px;
+    }
+    .top h1{
+        padding-top: 1%;
+    }
+    .mid{
+        display: block;
+    }
+    .midleft{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .md-l-l img{
+        width: 100px;
+        margin-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 10px;
+    }
+    .mid .md-l-r img{
+        height: 350px;
+        width: 200px;
+        margin-left: 15%;
+    }
+    .midright{
+        width: 100%;
+    }
+}

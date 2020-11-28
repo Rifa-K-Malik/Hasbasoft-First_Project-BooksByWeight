@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/cart.css">
+
+</head>
+
+<body>
+    <div class="cart-grid-container">
+    <div class="head">
+        <h1>CART</h1>
+    </div>
+    <div  class = "table">
+        <table>
+            <tr>
+                <th>BOOKS COVER</th>
+                <th>BOOKS TITLE</th>
+                <th>PRICE(&#x20B9;)</th>
+                <th>BOOK WEIGHT</th>
+                <th>QUANTITY</th>
+                <th>TOTAL</th>
+                <th>REMOVE</th>
+            </tr>
+            <tr>
+                <td><a href="bookdetail.html"><img src="/img/book5.png" alt=""></a></td>
+                <td>NOTHING CAN HURT YOU</td>
+                <td>&#x20B9;165.00</td>
+                <td>0.65kg</td>
+                <td>1</td>
+                <td>&#x20B9;165.00</td>
+                <td><i class="fa fa-trash-o" style="font-size:36px"></i></td>
+            </tr>
+            <tr>
+                <td><a href="bookdetail.html"><img src="/img/book2.png" alt=""></a></td>
+                <td>HOW TO WRITE YOUR FIRST BOOK</td>
+                <td>&#x20B9;58.00</td>
+                <td>0.50kg</td>
+                <td>1</td>
+                <td>&#x20B9;58.00</td>
+                <td><i class="fa fa-trash-o" style="font-size:36px"></i></td>
+            </tr>
+        </table>
+    </div>
+    <div class="bottom">
+        <div class="left">
+            <a href="checkout.html"><button>CONTINUE SHOPPING</button></a>
+            <p>COUPON</p>
+            <p>Enter your coupon code if you have one.</p>
+            <input type="text" name="Coupon code" placeholder="Coupon Code">
+            <button>APPLY COUPON</button>
+        </div>
+        <div class="right">
+            <p>CART TOTAL</p>
+            <div class="md">
+                <div class="rl">
+                    <ul>
+                        <li>SUBTOTAL</li>
+                        <li>TOTAL BOOK WEIGHT</li>
+                        <li>SHIPPING</li>
+                        <li></li>
+                        <li style="font-size: 30px; padding-top: 22px;">TOTAL</li>
+                    </ul>
+                </div>
+                <div class="rr">
+                    <ul>
+                        <li>&#x20B9;215.00</li>
+                        <li>1.45 KG</li>
+                        <li>Flat Rate:&#x20B9;50.00/Book</li>
+                        <li>Free Shipping above &#x20B9;500</li>
+                        <li style="font-size: 30px;">&#x20B9;215.00</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="checkout.html"><button> Proceed to checkout</button></a>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
